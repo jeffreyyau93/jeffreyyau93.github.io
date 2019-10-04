@@ -1,4 +1,6 @@
-css/bootstrap.css
-js/bootstrap.min.js
-js/jquery-3.4.1.min.js
-js/popper.min.js
+dist/css/bootstrap.css
+dist/js/bootstrap.min.js
+dist/js/jquery-3.4.1.min.js
+dist/js/popper.min.js
+scss
+package.json
