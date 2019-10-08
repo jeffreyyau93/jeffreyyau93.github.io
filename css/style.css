@@ -54,7 +54,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/my_portrait.jpg) center/250px;
+      background: url(../img/my_portrait.jpg) center/cover;
       border-radius: 50%;
       border: 5px solid #a7e400; }
   .menu .nav-item {
@@ -121,7 +121,7 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(../img/my_portrait.jpg) center/150px;
+      background: url(../img/my_portrait.jpg) center/cover;
       width: 150px;
       height: 150px; } }
 
@@ -153,17 +153,6 @@ body {
       z-index: -1;
       background: rgba(51, 51, 51, 0.5); }
 
-/* #head-shot {
-  max-width: 280px;
-  max-height: 280px;
-  border: 10px solid #eee;
-  border-radius: 50%;
-
-  img {
-    width: 100%;
-    border-radius: 50%;
-  }
-} */
 h1,
 h2,
 h3 {
