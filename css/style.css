@@ -1,3 +1,9 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0; }
+
 * {
   box-sizing: border-box; }
 
@@ -5,22 +11,54 @@ body {
   margin: 0;
   padding: 0; }
 
+h1,
+h2,
+h3 {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+  word-spacing: 0.5rem; }
+
+p {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 400; }
+
 a {
   text-decoration: none;
   color: #fff; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  margin: 0;
+  padding: 0; }
 
-#exp div h1 span {
-  white-space: pre;
-  word-spacing: 10rem;
-  border-bottom: 1px solid #ccc; }
-
-#exp div P span {
-  font-weight: 600; }
+#exp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #exp div {
+    width: 1440px;
+    height: 300px; }
+    #exp div:last-child {
+      height: 480px;
+      display: flex;
+      flex-flow: column wrap; }
+      #exp div:last-child div {
+        width: 720px;
+        height: 240px;
+        display: flex;
+        flex-flow: column nowrap; }
+        #exp div:last-child div:first-child {
+          height: 480px; }
+    #exp div h1 span {
+      white-space: pre;
+      word-spacing: 10rem;
+      border-bottom: 1px solid #ccc; }
+    #exp div p span {
+      font-family: "Noto Sans TC", sans-serif; }
 
 footer {
+  width: 100vw;
   background: #333;
   color: #fff;
   padding: 1rem;
