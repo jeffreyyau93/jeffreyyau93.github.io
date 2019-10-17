@@ -31,3 +31,16 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// Smooth Scrolling
+$(".nav-item a").on("click", function(event) {
+  if (this.hash !== "") {
+    event.preventDefault();
+    const hash = this.hash;
+    $("html, body").animate({ scrollTop: $(hash).offset().top - 100 }, 800);
+  }
+  const closeMenu = setInterval(() => {
+    toggleMenu();
+  }, 500);
+  clearInterval(closeMenu());
+});

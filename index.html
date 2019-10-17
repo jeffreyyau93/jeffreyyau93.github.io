@@ -8,6 +8,12 @@
       href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:500|Noto+Serif+TC&display=swap&subset=chinese-traditional"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <!-- <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -16,12 +22,12 @@
     /> -->
     <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
-    <!-- <script
+    <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
       defer
-    ></script> -->
+    ></script>
     <!-- <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -34,90 +40,14 @@
       crossorigin="anonymous"
       defer
     ></script> -->
-    <script src="js/all.js" defer></script>
+    <!-- <script src="js/all.js" defer></script> -->
     <script src="js/typewriter.js" defer></script>
     <script src="js/script.js" defer></script>
-    <title>Jeffrey Yau | 前端網頁開發者</title>
+    <title>姚昌毅 | 前端網頁開發者</title>
   </head>
   <body id="bg-img">
-    <!-- navbar section start -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="#">Jeffrey Yau</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#header"
-              >回首頁 <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#profile">個人簡介</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">技能</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#certificate">證照</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#edu-exp">學經歷</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">作品集</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#footer">聯絡我</a>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
-    <!-- navbar section end -->
-
-    <!-- header section start -->
-    <!-- <header
-      id="header"
-      class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center bg-primary"
-    >
-      <div id="head-shot"><img src="img/head_shot.jpg" alt="head shot" /></div>
-      <h1>Hi! I'm Jeffrey. I do Front-end development.</h1>
-      <div>
-        <span class="fa-stack" style="vertical-align: top;">
-          <i class="far fa-circle fa-stack-2x"></i>
-          <i class="fas fa-flag fa-stack-1x"></i>
-        </span>
-        <a
-          href="https://github.com/jeffreyyau93"
-          target="_blank"
-          class="text-light"
-          ><i class="fab fa-github fa-2x"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/jeffreyyau93"
-          target="_blank"
-          class="text-light"
-          ><i class="fab fa-linkedin fa-2x"></i
-        ></a>
-        <a
-          href="https://www.behance.net/jeffreyyau"
-          target="_blank"
-          class="text-light"
-          ><i class="fab fa-behance fa-2x"></i
-        ></a>
-      </div>
-    </header> -->
-    <!-- header section end -->
-    <!-- <header>
+    <!-- Menu Section -->
+    <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
         <div class="btn-line"></div>
@@ -129,70 +59,50 @@
           <div class="portrait"></div>
         </div>
         <ul class="menu-nav">
-          <li class="nav-item current"><a href="" class="nav-link">Home</a></li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Profile</a>
+          <li class="nav-item current">
+            <a href="#home" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">Skills</a>
+            <a href="#profile" class="nav-link">Profile</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">Certificate</a>
+            <a href="#works" class="nav-link">My Work</a>
           </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">My Work</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <main id="home">
-      <h1 class="lg-heading">
-        Jeffrey
-        <span class="text-secondary">Yau</span>
-      </h1>
-      <h2 class="sm-heading">
-        The
-        <span
-          class="txt-type"
-          data-wait="3000"
-          data-words='["Web Developer", "Programmer", "Photographer"]'
-        ></span>
-      </h2>
-      <div class="icons">
-        <a href="https://github.com/jeffreyyau93" target="_blank">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
-        <a href="https://www.behance.net/jeffreyyau" target="_blank">
-          <i class="fab fa-behance-square fa-2x"></i>
-        </a>
-        <a href="https://twitter.com/yau_jeffrey" target="_blank">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/jeffreyyau93" target="_blank">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-      </div>
-    </main> -->
-
-    <header>
-      <nav class="menu">
-        <ul>
-          <li><a href="#home">首頁</a></li>
-          <li><a href="#works">作品</a></li>
-          <li><a href="#profile">簡歷</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id="home">
+      <!-- Home Section -->
+      <section id="home" class="container">
+        <h1 class="lg-heading">
+          Jeffrey
+          <span class="text-secondary">Yau</span>
+        </h1>
+        <h2 class="sm-heading">
+          I'm
+          <span
+            class="txt-type"
+            data-wait="3000"
+            data-words='["姚昌毅", "a Web Developer", "a Programmer", "a Photographer"]'
+          ></span>
+        </h2>
+        <div class="icons">
+          <a href="https://github.com/jeffreyyau93" target="_blank">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <a href="https://www.behance.net/jeffreyyau" target="_blank">
+            <i class="fab fa-behance-square fa-2x"></i>
+          </a>
+          <a href="https://twitter.com/yau_jeffrey" target="_blank">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/jeffreyyau93" target="_blank">
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+        </div>
+      </section>
+      <!-- <section id="home">
         <div class="portrait"></div>
         <h1>
           姚昌毅
@@ -216,32 +126,88 @@
             <i class="fab fa-linkedin"></i>
           </a>
         </div>
-      </section>
-      <section id="showcase-1">
+      </section> -->
+
+      <!-- Profile Section -->
+      <section id="profile" class="container">
         <div>
-          <h1>Pierre Stone</h1>
-          <h2>法式小酒館</h2>
-          <a href="http://220.128.133.15/s1080208/pierre-stone/" target="_blank"
-            >http://220.128.133.15/s1080208/pierre-stone/</a
-          >
+          <h1 class="text-secondary">我 的 簡 歷</h1>
         </div>
-        <div></div>
-      </section>
-      <section id="showcase-2">
         <div>
-          <h1>咖啡莊園</h1>
-          <a
-            href="https://jeffreyyau93.github.io/coffee-shop-website/"
-            target="_blank"
-            >https://jeffreyyau93.github.io/coffee-shop-website/</a
-          >
+          <h2>簡 介 <span> </span></h2>
+          <p>
+            英文系畢業，大學時擔任遊戲開發社企劃，對網頁設計產生興趣，之後參加線上課程學習程式，培養自學及問題解決能力。
+          </p>
+          <p>
+            為了精進自我，透過近半年的專業網頁設計課程，習得前端網頁開發的技術，包含
+            HTML, CSS, Bootstrap, RWD 響應式設計、JavaScript, jQuery,
+            API資料串接應用，以及 Photoshop 影像處理與 Illustrator
+            向量繪圖。結業後自學 Sass/SCSS, npm, Node.js 以加強開發實力。
+          </p>
+          <p>
+            對網頁技術動向持高度關注，不斷追求新知，並積極尋找前端開發工作中。
+          </p>
         </div>
-        <div></div>
+        <div>
+          <h2>經 歷 <span> </span></h2>
+          <P>淡江大學英文學系</P>
+          <P>淡江大學日本語文學系輔系</P>
+          <P>世洋科技股份有限公司 - OEM業務助理</P>
+          <P>MITx Introduction to Computer Science and Programming</P>
+          <P>Udacity Front End Web Developer Nanodegree</P>
+          <P>泰山職訓中心 - 前端網頁開發技術班</P>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="container">
+        <div>
+          <h1 class="text-secondary">專 業 技 能</h1>
+        </div>
+        <div class="skill-items">
+          <div class="skill-list">
+            <ul class="fa-ul">
+              <li>
+                <span class="fa-li"><i class="fas fa-code"></i></span>網頁開發 -
+                Bootstrap, Sass/SCSS, JavaScript, jQuery, AJAX, Node.js
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-code-branch"></i></span
+                >版本控制 - Git Bash, GitHub
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-adjust"></i></span>影像處理
+                - Photoshop, Illustrator, Adobe XD
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-certificate"></i></span
+                >專業證照 - JLPT N1, TOEIC 820, 網頁開發丙級
+              </li>
+            </ul>
+          </div>
+          <div class="js-logo">
+            <img src="img/js_logo.png" alt="javascript" />
+          </div>
+        </div>
       </section>
 
       <!-- Works Section -->
       <section id="works" class="container-fluid">
         <ul>
+          <li>
+            <a
+              href="http://220.128.133.15/s1080208/pierre-stone/"
+              target="_blank"
+              ><img src="img/pierre_stone.jpg" alt="pierre-stone-bistro"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://jeffreyyau93.github.io/coffee-shop-website/"
+              target="_blank"
+              ><img src="img/coffee_shop.jpg" alt="coffee-shop"
+            /></a>
+          </li>
           <li>
             <a href="http://220.128.133.15/s1080208/vCard/" target="_blank"
               ><img src="img/vcard.jpg" alt="vCard-generator"
@@ -281,51 +247,6 @@
             /></a>
           </li>
         </ul>
-      </section>
-
-      <!-- Profile Section -->
-      <section id="profile" class="container">
-        <div>
-          <h1>簡 歷 <span> </span></h1>
-          <p>
-            英文系畢業，大學時擔任遊戲開發社企劃，對網頁設計產生興趣，之後參加線上課程學習程式，培養自學及問題解決能力。
-          </p>
-          <p>
-            為了精進自我，透過近半年的專業網頁設計課程，習得前端網頁開發的技術，包含
-            HTML, CSS, Bootstrap, RWD 響應式設計、JavaScript, jQuery,
-            API資料串接應用，以及 Photoshop 影像處理與 Illustrator
-            向量繪圖。結業後自學 Sass/SCSS, npm, Node.js 以加強開發實力。
-          </p>
-          <p>
-            對網頁技術動向持高度關注，不斷追求新知，並積極尋找前端開發工作中。
-          </p>
-        </div>
-        <div>
-          <div>
-            <h1>經 歷 <span> </span></h1>
-            <P>淡江大學英文學系</P>
-            <P>淡江大學日本語文學系輔系</P>
-            <P>世洋科技股份有限公司 - OEM業務助理</P>
-            <P>MITx Introduction to Computer Science and Programming</P>
-            <P>Udacity Front End Web Developer Nanodegree</P>
-            <P>泰山職訓中心 - 前端網頁開發技術班</P>
-          </div>
-          <div>
-            <h1>技 能 <span> </span></h1>
-            <p>
-              <span>網頁開發</span> - Bootstrap, Sass/SCSS, JavaScript, jQuery,
-              AJAX, Node.js
-            </p>
-            <p><span>版本控制</span> - Git Bash, GitHub</p>
-            <p><span>影像處理</span> - Photoshop, Illustrator, Adobe XD</p>
-          </div>
-          <div>
-            <h1>證 照 <span> </span></h1>
-            <P>JLPT N1</P>
-            <P>TOEIC 820</P>
-            <P>網頁開發丙級</P>
-          </div>
-        </div>
       </section>
     </main>
 
