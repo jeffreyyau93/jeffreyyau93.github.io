@@ -69,6 +69,8 @@
       background: url(../img/my_portrait.jpg) center/cover;
       border-radius: 50%;
       border: 5px solid #00a0bd; }
+      .menu-branding .portrait-title {
+        margin-top: 1rem; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
