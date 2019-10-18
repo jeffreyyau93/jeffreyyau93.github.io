@@ -8,7 +8,7 @@
   width: 100vw;
   min-height: 100vh;
   margin: 0;
-  padding: 40px; }
+  padding: 0 15vw; }
 
 .menu-btn {
   position: absolute;
@@ -68,14 +68,14 @@
       height: 250px;
       background: url(../img/my_portrait.jpg) center/cover;
       border-radius: 50%;
-      border: 5px solid #00d100; }
+      border: 5px solid #00a0bd; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #00d100; }
+      color: #00a0bd; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -87,7 +87,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #00d100; }
+      color: #00a0bd; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -110,13 +110,63 @@
 .nav-item:nth-child(7) {
   transition-delay: 0.7s; }
 
+@media screen and (min-width: 1171px) and (max-width: 1440px) {
+  main #works ul li a img {
+    width: 360px;
+    height: auto; } }
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  .js-logo {
+    display: none; }
+  main #works ul li a img {
+    width: 240px;
+    height: auto; } }
+
 @media screen and (max-width: 768px) {
+  .container {
+    padding: 8vw; }
+  .container-fluid {
+    padding: 8vw; }
+  p {
+    text-align: left; }
   main {
     align-items: center;
     text-align: center; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
+    main #profile div {
+      margin-bottom: 2rem; }
+      main #profile div h1 {
+        font-size: 2rem;
+        font-weight: 600; }
+      main #profile div h2 {
+        font-size: 1.5rem;
+        font-weight: 500; }
+    main #skills .skill-items .skill-list {
+      text-align: left; }
+    main #skills h1 {
+      font-size: 2rem;
+      font-weight: 600; }
+    main #works {
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center; }
+      main #works h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 2rem 0; }
+      main #works ul {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center; }
+        main #works ul li:nth-child(odd) {
+          margin: 0; }
+        main #works ul li:nth-child(even) {
+          margin: 0; }
+        main #works ul li a img {
+          width: 320px;
+          height: auto; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -133,9 +183,11 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(../img/portrait.jpg) center/cover;
+      background: url(../img/my_portrait.jpg) center/cover;
       width: 150px;
-      height: 150px; } }
+      height: 150px; }
+  .js-logo {
+    display: none; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -191,7 +243,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #00d100; }
+  color: #00a0bd; }
 
 .icons {
   margin-top: 1rem; }
@@ -199,7 +251,7 @@ header {
     padding: 0.4rem;
     transition: all 0.5s ease-out; }
     .icons a:hover {
-      color: #00d100; }
+      color: #00a0bd; }
 
 #home {
   background: url(../img/background.jpg);
@@ -212,6 +264,7 @@ header {
   justify-content: center; }
 
 #profile {
+  display: flex;
   color: #333;
   flex-flow: column nowrap;
   justify-content: center; }
@@ -248,14 +301,23 @@ header {
       #skills .skill-items .skill-list ul {
         position: absolute;
         top: 0;
-        left: 2rem;
+        left: 4rem;
         margin: 0;
         padding: 0;
         white-space: pre-line; }
-  #skills img {
-    width: 480px; }
+        #skills .skill-items .skill-list ul li {
+          text-indent: -1rem; }
+  #skills .js-logo img {
+    width: 360px;
+    height: auto; }
+
+#works h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 5rem 0; }
 
 #works ul {
+  padding: 0;
   display: flex;
   flex-flow: row wrap; }
   #works ul li:nth-child(odd) {
@@ -263,7 +325,7 @@ header {
   #works ul li:nth-child(even) {
     margin: 0.75rem auto 0.75rem 0.75rem; }
   #works ul li a img {
-    width: 720px;
+    width: 480px;
     height: auto; }
 
 footer {

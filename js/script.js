@@ -39,8 +39,7 @@ $(".nav-item a").on("click", function(event) {
     const hash = this.hash;
     $("html, body").animate({ scrollTop: $(hash).offset().top - 100 }, 800);
   }
-  const closeMenu = setInterval(() => {
+  setTimeout(() => {
     toggleMenu();
-  }, 500);
-  clearInterval(closeMenu());
+  }, 100);
 });
