@@ -33,6 +33,7 @@
       transform: rotate(-45deg) translate(7px, -6px); }
 
 .menu {
+  font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
   position: fixed;
   top: 0;
   width: 100%;
@@ -140,23 +141,19 @@
     main #profile div {
       margin-bottom: 2rem; }
       main #profile div h1 {
-        font-size: 2rem;
-        font-weight: 600; }
+        font-size: 2rem; }
       main #profile div h2 {
-        font-size: 1.5rem;
-        font-weight: 500; }
+        font-size: 1.5rem; }
     main #skills .skill-items .skill-list {
       text-align: left; }
     main #skills h1 {
-      font-size: 2rem;
-      font-weight: 600; }
+      font-size: 2rem; }
     main #works {
       flex-flow: column nowrap;
       align-items: center;
       justify-content: center; }
       main #works h1 {
         font-size: 2rem;
-        font-weight: 600;
         margin: 2rem 0; }
       main #works ul {
         display: flex;
@@ -266,6 +263,7 @@ header {
   justify-content: center; }
 
 #profile {
+  font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
   display: flex;
   color: #333;
   flex-flow: column nowrap;
@@ -276,12 +274,13 @@ header {
       margin: 0; }
     #profile div h1 {
       font-size: 2.5rem;
-      font-weight: 600; }
+      font-weight: 500; }
     #profile div h2 {
       font-size: 2rem;
-      font-weight: 500; }
+      font-weight: 400; }
 
 #skills {
+  font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
   background: #333;
   flex-flow: column nowrap;
   justify-content: center; }
@@ -289,10 +288,10 @@ header {
     margin-bottom: 5rem; }
   #skills h1 {
     font-size: 2.5rem;
-    font-weight: 600; }
+    font-weight: 500; }
   #skills h2 {
     font-size: 2rem;
-    font-weight: 500; }
+    font-weight: 400; }
   #skills .skill-items {
     display: flex;
     justify-content: space-between; }
@@ -313,24 +312,25 @@ header {
     width: 360px;
     height: auto; }
 
-#works h1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin: 5rem 0; }
-
-#works ul {
-  padding: 0;
-  display: flex;
-  flex-flow: row wrap; }
-  #works ul li:nth-child(odd) {
-    margin: 0.75rem 0.75rem 0.75rem auto; }
-  #works ul li:nth-child(even) {
-    margin: 0.75rem auto 0.75rem 0.75rem; }
-  #works ul li:last-child {
-    margin: auto; }
-  #works ul li a img {
-    width: 480px;
-    height: auto; }
+#works {
+  font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+  #works h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 5rem 0; }
+  #works ul {
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap; }
+    #works ul li:nth-child(odd) {
+      margin: 0.75rem 0.75rem 0.75rem auto; }
+    #works ul li:nth-child(even) {
+      margin: 0.75rem auto 0.75rem 0.75rem; }
+    #works ul li:last-child {
+      margin: auto; }
+    #works ul li a img {
+      width: 480px;
+      height: auto; }
 
 footer {
   width: 100vw;
