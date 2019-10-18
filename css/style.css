@@ -345,3 +345,5 @@ footer {
       margin: 0 0.25rem 0 0; }
       footer div a:last-child {
         margin-right: 0; }
+  footer span {
+    margin-bottom: 0.3rem; }
