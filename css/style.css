@@ -322,15 +322,17 @@ header {
     padding: 0;
     display: flex;
     flex-flow: row wrap; }
-    #works ul li:nth-child(odd) {
-      margin: 0.75rem 0.75rem 0.75rem auto; }
-    #works ul li:nth-child(even) {
-      margin: 0.75rem auto 0.75rem 0.75rem; }
-    #works ul li:last-child {
-      margin: auto; }
-    #works ul li a img {
-      width: 480px;
-      height: auto; }
+    #works ul li {
+      /* &:last-child {
+        margin: auto;
+      } */ }
+      #works ul li:nth-child(odd) {
+        margin: 0.75rem 0.75rem 0.75rem auto; }
+      #works ul li:nth-child(even) {
+        margin: 0.75rem auto 0.75rem 0.75rem; }
+      #works ul li a img {
+        width: 480px;
+        height: auto; }
 
 footer {
   width: 100vw;
