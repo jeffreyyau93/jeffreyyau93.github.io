@@ -1,26 +1,27 @@
 # Jeffrey Yau's Portfolio Website
 
-This is my personal GitHub page. Visit me at https://jeffreyyau93.github.io/.
+This is my personal website repository. Visit me at <https://jeffreyyau93.github.io/>.
 
 ## Acknowledgement
 
-Techniques used so far:
+Following techniques and tools were used to make this website:
 
-* HTML
-* SCSS
-* ES6
-* npm
+- Semantic HTML
+- CSS Preprocesor (Sass)
+- JavsCript (ES6, ES2015)
+- Node.js (with npm)
+- Git Bash
 
-Online Resources:
+Some of the online resources:
 
-* Font Awesome icons
+- Font Awesome icons
 
-Other images assets so far are self-made.
+Other image assets are self-made.
 
 ## Contribution
 
-You are welcomed to flag any bug issue, it'd be much appreciated.
+Feel free to flag any bug, it would be much appreciated.
 
 ## License
 
-Copyright &copy; 2019 JeffreyYau93
+Copyright &copy; 2021 JeffreyYau93
